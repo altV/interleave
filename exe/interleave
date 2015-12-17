@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'interleave'
+# require :pry
+
+Interleave.start
