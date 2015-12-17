@@ -16,7 +16,7 @@ module Interleave
     each_with_index do |(r,o,e,t), i|
       r.close
       Thread.new do
-        loop { puts o.readline.send Colors[i] }
+        loop { print o.readline.send Colors[i] }
       end
     end
 
